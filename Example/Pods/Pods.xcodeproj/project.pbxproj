@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		042DBB0827B6931A008CA1FC /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042DBB0727B6931A008CA1FC /* UIImageView.swift */; };
+		042DBB0D27B6994D008CA1FC /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 042DBB0B27B6994D008CA1FC /* .gitkeep */; };
+		042DBB0E27B6994D008CA1FC /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042DBB0C27B6994D008CA1FC /* UIImageView.swift */; };
 		36D0B492DF514079F433CA60DB5A0DB5 /* Pods-SDKVersion_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 950B2A9C127AE9FF33EF40F7F4DBE4EE /* Pods-SDKVersion_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		812CD61EC1E5127E8A2990FC87E2F25C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		B8D805B75E8F6DC4314612DCA5F1C899 /* SDKVersion-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 935B501A88B2D929FB63E5F1C72FC4FF /* SDKVersion-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -38,6 +40,8 @@
 
 /* Begin PBXFileReference section */
 		042DBB0727B6931A008CA1FC /* UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
+		042DBB0B27B6994D008CA1FC /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		042DBB0C27B6994D008CA1FC /* UIImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
 		05D17E468E824646F69E5A4198CC8CA1 /* Pods-SDKVersion_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SDKVersion_Example-frameworks.sh"; sourceTree = "<group>"; };
 		079C828616206BC5EFEA33159D89F4C0 /* Pods-SDKVersion_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SDKVersion_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		1AA2D71F418C562EB52869590EDB40BF /* SDKVersion-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SDKVersion-dummy.m"; sourceTree = "<group>"; };
@@ -100,9 +104,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		042DBB0A27B6994D008CA1FC /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				042DBB0B27B6994D008CA1FC /* .gitkeep */,
+				042DBB0C27B6994D008CA1FC /* UIImageView.swift */,
+			);
+			name = Classes;
+			path = SDKVersion/Classes;
+			sourceTree = "<group>";
+		};
 		1BA68EFE46666440A80692E939FB6F5B /* SDKVersion */ = {
 			isa = PBXGroup;
 			children = (
+				042DBB0A27B6994D008CA1FC /* Classes */,
 				BFCB10B2906DFAAA23A4A05B6C8CC2D2 /* Pod */,
 				F020EF33230F792195891092F3FDBADF /* Support Files */,
 				042DBB0727B6931A008CA1FC /* UIImageView.swift */,
@@ -355,6 +370,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				042DBB0D27B6994D008CA1FC /* .gitkeep in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -389,6 +405,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				042DBB0827B6931A008CA1FC /* UIImageView.swift in Sources */,
+				042DBB0E27B6994D008CA1FC /* UIImageView.swift in Sources */,
 				DE825124B4D73C973961B1E92916F73E /* SDKVersion-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
