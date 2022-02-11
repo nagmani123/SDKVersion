@@ -24,12 +24,13 @@ Pod::Spec.new do |s|
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'nagmani123' => 'nagmani.kumar@hastree.com' }
-  s.source           = { :git => 'https://github.com/nagmani123/SDKVersion.git',:commit => "41ae1f0b23f60c1b4933bef3812999436adc21f1", :tag => '0.1.0' }
+  s.source           = { :git => 'https://github.com/nagmani123/SDKVersion.git',:commit => "3ca467bb3a6a1f691c6a6c934648362ea699e93a", :tag => '0.1.0' }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '12.0'
+  s.source_files = 'SDKVersion/Classes/**/*'
 
-  s.source_files = 'SDKVersion/Classes/*.swift'
+  #s.source_files = 'SDKVersion/Classes/*.swift'
   #s.source_files = 'SDKVersion/Classes/UIImageview.swift'
   
   # s.resource_bundles = {
