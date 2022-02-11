@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '12.0'
 
   #s.source_files = 'SDKVersion/Classes/*.swift'
-  s.source_files = '**/SDKVersion/Classes/*.{swift}'
+  s.source_files = 'SDKVersion/Classes/UIImageview.swift'
   
   # s.resource_bundles = {
   #   'SDKVersion' => ['SDKVersion/Assets/*.png']
