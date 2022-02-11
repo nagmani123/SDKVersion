@@ -1,0 +1,22 @@
+{
+  "name": "SDKVersion",
+  "version": "0.1.0",
+  "summary": "A short description of SDKVersion.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/nagmani123/SDKVersion",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "nagmani123": "nagmani.kumar@hastree.com"
+  },
+  "source": {
+    "git": "https://github.com/nagmani123/SDKVersion.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "SDKVersion/Classes/**/*"
+}

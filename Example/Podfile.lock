@@ -1,0 +1,16 @@
+PODS:
+  - SDKVersion (0.1.0)
+
+DEPENDENCIES:
+  - SDKVersion (from `../`)
+
+EXTERNAL SOURCES:
+  SDKVersion:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SDKVersion: 0564ef3869b7b06ab69712f2ddd9d939b813fcb2
+
+PODFILE CHECKSUM: 25fb28ef3e1087ae14f369689bb45244b9ef14d5
+
+COCOAPODS: 1.11.2
