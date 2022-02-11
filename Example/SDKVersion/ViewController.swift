@@ -7,11 +7,14 @@
 //
 
 import UIKit
+import SDKVersion
 
 class ViewController: UIViewController {
 
+    @IBOutlet var imgView: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
+        imgView.circleImageView(borderColor: .red, borderWidth: 2.0)
         // Do any additional setup after loading the view, typically from a nib.
     }
 
